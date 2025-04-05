@@ -1,0 +1,143 @@
+:root {
+    --primary: #4285F4;    /* Azul */
+    --secondary: #EA4335;  /* Vermelho */
+    --accent: #FBBC05;     /* Amarelo */
+    --success: #34A853;    /* Verde */
+    --dark-bg: #212121;
+    --light-bg: #ffffff;
+    --text-dark: #202124;
+    --text-light: #ffffff;
+}
+
+.navbar {
+    background-color: var(--primary) !important;
+    padding: 0.8rem 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+color: var(--text-light);
+font-weight: bold;
+font-size: 1.5rem;
+}
+
+.navbar-brand:hover {
+color: var(--accent);
+}
+
+.nav-link {
+color: var(--text-light);
+transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+color: var(--accent);
+}
+
+.dropdown-menu {
+background-color: var(--light-bg);
+border: none;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-item {
+color: var(--text-dark);
+}
+
+.dropdown-item:hover {
+background-color: var(--primary);
+color: var(--text-light);
+}
+
+.btn-outline-success {
+color: var(--light-bg);
+border-color: var(--light-bg);
+}
+
+.btn-outline-success:hover {
+background-color: var(--success);
+border-color: var(--success);
+color: var(--text-light);
+}
+
+.form-control {
+border-radius: 0.4rem;
+}
+  
+
+.banner {
+    margin-top: 50px;
+}
+
+/* Responsividade do vídeo */
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Proporção 16:9 */
+    height: 0;
+   
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card-custom {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    min-height: 300px; /* Garantir uma altura mínima consistente */
+}
+
+.card-custom:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-header-custom {
+    background: linear-gradient(45deg, #d4af37, #c68e17); /* Dourado para o Plano Basic */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.btn-gradient {
+    background: linear-gradient(45deg, #007bff, #6610f2); /* Gradiente no botão */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 50px;
+    /* transition: 0.3s; */
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(45deg, #0056b3, #520dc2);
+    /* transform: scale(1.05); */
+    color: white;
+}
+
+/* Novo estilo para o botão do Plano Basic (dourado) */
+.btn-basic {
+    background: linear-gradient(45deg, #d4af37, #c68e17);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.btn-basic:hover {
+    background: linear-gradient(45deg, #b5893f, #9c7c28);
+    transform: scale(1.05);
+}
