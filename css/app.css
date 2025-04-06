@@ -9,65 +9,8 @@
     --text-light: #ffffff;
 }
 
-.navbar {
-    background-color: var(--primary) !important;
-    padding: 0.8rem 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-brand {
-color: var(--text-light);
-font-weight: bold;
-font-size: 1.5rem;
-}
-
-.navbar-brand:hover {
-color: var(--accent);
-}
-
-.nav-link {
-color: var(--text-light);
-transition: color 0.3s ease;
-}
-
-.nav-link:hover,
-.nav-link.active {
-color: var(--accent);
-}
-
-.dropdown-menu {
-background-color: var(--light-bg);
-border: none;
-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.dropdown-item {
-color: var(--text-dark);
-}
-
-.dropdown-item:hover {
-background-color: var(--primary);
-color: var(--text-light);
-}
-
-.btn-outline-success {
-color: var(--light-bg);
-border-color: var(--light-bg);
-}
-
-.btn-outline-success:hover {
-background-color: var(--success);
-border-color: var(--success);
-color: var(--text-light);
-}
-
-.form-control {
-border-radius: 0.4rem;
-}
-  
-
 .banner {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 /* Responsividade do vídeo */
